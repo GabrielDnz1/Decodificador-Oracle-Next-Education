@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap');
+
+:root {
+    --cor-Preto: #000000;
+    --cor-Azul: #161A30;
+    --cor-Azul-escuro: #31304D;
+    --cor-Cinza: #B6BBC4;
+    --cor-Aviso: #FFFFFF;
+}
+
+body {
+    display: block;
+    background-color: var(--cor-Azul);
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+}
+
+.alura_logo {
+    position: absolute;
+    background-image: url("../files/alura.png");
+    width: 7.5rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    gap: 2.5rem;
+}
+
+.interface_do_programa {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.input_para_texto{
+    font-family: 'Inter', monospace;
+    background-color: #00000000;
+    color: var(--cor-Cinza);
+    border: #00000000;
+    margin-top: 168px;
+    margin-left: 160px;
+    width: 680px;
+    height: 48px;
+
+    /* FONTE */
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 48px;
+}
+
+.input_para_texto::placeholder{
+    font-family: 'Inter', monospace;
+    color: var(--cor-Roxo);
+}
+
+.avisoParaInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    gap: 1px;
+    margin-left: 160px;
+    margin-top: 635px;
+}
+
+.imagem_de_aviso_para_input{
+    width: 16px;
+    height: 16px;
+}
+
+.texto_aviso_para_input{
+    font-family: 'Inter', monospace;
+    color: var(--cor-Cinza);
+    width: 228px;
+    height: 18px;
+    /* FONT */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.botoes_da_interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-left: 160px;
+    margin-right: 80px;
+    margin-bottom: 72px;
+}
+
+.botao_criptografar{
+    background-color: var(--cor-Aviso);
+    width: 328px;
+    padding: 24px;
+    border-radius: 24px;
+
+    /* FONT */
+
+    color: var(--cor-Azul);
+    text-decoration: none;
+    font-family: 'Inter', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.botao_descriptografar{
+    background-color: var(--cor-Aviso);
+    width: 328px;
+    height: 19px;
+    padding: 24px;
+    border-radius: 24px;
+    margin-left: 24px;
+
+    /* FONT */
+
+    color: var(--cor-Azul);
+    text-decoration: none;
+    font-family: 'Inter', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* CONTAINER LATERAL */
+
+.container_lateral{
+    position: absolute;
+    background-color: var(--cor-Aviso);
+    width: 400px;
+    height: 944px;
+    margin-right: 40px;
+    margin-left: 1000px;
+    margin-top: 40px;
+    border-radius: 32px;
+}
+
+.imagem_do_container_lateral{
+    width: 336px;
+    height: 304px;
+    margin-top: 243px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.titulo_do_container_lateral{
+    width: 336px;
+    height: 58px;
+    margin-right: 32px;
+    margin-left: 32px;
+    font-family: 'Inter', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.subtitulo_do_container_lateral{
+    font-family: 'Inter', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}

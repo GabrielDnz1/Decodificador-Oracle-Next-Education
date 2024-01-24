@@ -1,0 +1,34 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Alura</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+            <div class="alura_logo"></div>
+            <div class="interface_do_programa">
+                <div class="container_principal">
+                    <textarea class="input_para_texto" id="inputDeTexto" placeholder="Digite seu texto"></textarea>
+                        <div class="avisoParaInput">
+                            <img src="./files/aviso.png" class="imagem_de_aviso_para_input">
+                            <h1 class="texto_aviso_para_input">Apenas letras minúsculas e sem acento.</h1>
+                        </div>
+                        <nav class="botoes_da_interface">
+                            <a class="botao_criptografar" onclick="codificar()" href="#">Criptografar</a>
+                            <a class="botao_descriptografar" onclick="decodificar()" href="#">Descriptografar</a>
+                        </nav>
+                </div>
+                <div class="container_lateral">
+                    <img src="./files/imagemcriptografado.png" id="imagem_do_container_lateral" class="imagem_do_container_lateral">
+                    <h1 class="titulo_do_container_lateral" id="titulo_retangulo">Nenhuma mensagem encontrada</h1>
+                    <h1 class="subtitulo_do_container_lateral" id="subtitulo_retangulo">Digite um texto que você deseja<br> criptografar ou descriptografar.<br></h1>
+                    <h1 class="resultado_do_container_lateral" id="texto_resposta"></h1>
+                    <button class="botao_de_copiar" id="container_retangulo_botao_copiar" onclick="copiarValorDoInput()" id="copiar_texto" href="#"
+                    style = "display: none;">Copiar</button >
+                </div>
+            </div>
+        <script src="./app.js"></script>
+    </body>
+    </html>
