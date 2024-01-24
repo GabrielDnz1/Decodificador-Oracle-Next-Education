@@ -44,7 +44,7 @@ body {
     margin-top: 168px;
     margin-left: 160px;
     width: 680px;
-    height: 48px;
+    height: 288px;
 
     /* FONTE */
     font-weight: 400;
@@ -65,7 +65,7 @@ body {
     width: 245px;
     gap: 1px;
     margin-left: 160px;
-    margin-top: 635px;
+    margin-top: 395px;
 }
 
 .imagem_de_aviso_para_input{
@@ -90,7 +90,7 @@ body {
     align-items: center;
     flex-direction: row;
     margin-top: 16px;
-    margin-left: 160px;
+    margin-left: 10%;
     margin-right: 80px;
     margin-bottom: 72px;
 }
@@ -138,7 +138,7 @@ body {
 .container_lateral{
     position: absolute;
     background-color: var(--cor-Aviso);
-    width: 400px;
+    width: 40%;
     height: 944px;
     margin-right: 40px;
     margin-left: 1000px;
@@ -147,18 +147,18 @@ body {
 }
 
 .imagem_do_container_lateral{
-    width: 336px;
+    width: 45%;
     height: 304px;
     margin-top: 243px;
-    margin-right: 32px;
-    margin-left: 32px;
+    margin-right: 50%;
+    margin-left: 25%;
 }
 
 .titulo_do_container_lateral{
-    width: 336px;
+    width: 50%;
     height: 58px;
-    margin-right: 32px;
-    margin-left: 32px;
+    margin-right: 50%;
+    margin-left: 25%;
     font-family: 'Inter', monospace;
     font-size: 24px;
     font-weight: 700;
@@ -174,4 +174,283 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.resultado_do_container_lateral{
+    height: 781px;
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-left: 32px;
+    font-family: 'Inter', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.botao_de_copiar{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+    width: 91.5%;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        height: auto;
+    }
+    .alura_logo {
+        background-image: url("../files/alura_tablet.png");
+        width: 31.09px;
+        height: 50.58px;
+        margin-top: 73.42px;
+        margin-left: 40px;
+
+    }
+    .interface_do_programa{
+        display: block;
+    }
+    .input_para_texto{
+        margin-left: 40px;
+        margin-top: 240px;
+    }
+    .container_lateral {
+        position: relative;
+        background-color: var(--cor-Aviso);
+        width: 688px;
+        height: 133px;
+        margin-right: 40px;
+        margin-left: 40px;
+        border-radius: 32px;
+    }
+    .botoes_da_interface {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: fit-content;
+        margin-top: 16px;
+        margin-bottom: 72px;
+        margin-right: 20px;
+        margin-left: 20px;
+        gap: 12px;
+    }
+    .botao_criptografar{
+        display: inline-flex;
+        background-color: var(--cor-Aviso);
+        width: 328px;
+        padding: 24px;
+        border-radius: 24px;
+
+        /* FONT */
+    
+        color: var(--cor-Azul);
+        text-decoration: none;
+        font-family: 'Inter', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .botao_descriptografar{
+        display: inline-flex;
+        background-color: var(--cor-Aviso);
+        width: 328px;
+        height: 19px;
+        padding: 24px;
+        border-radius: 24px;
+    
+        /* FONT */
+    
+        color: var(--cor-Azul);
+        text-decoration: none;
+        font-family: 'Inter', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .avisoParaInput {
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .imagem_do_container_lateral{
+        display: none;
+    }
+    .titulo_do_container_lateral{
+        height: 29px;
+        font-family: 'Inter', monospace;
+        width: 55%;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        margin-left: 24%;
+    }
+    .subtitulo_do_container_lateral{
+        width: auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;        
+    }
+    .resultado_do_container_lateral{
+        background-color: white;
+        border-radius: 24px;
+        margin-top: -1px;
+        width: 101%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        
+    }
+    .botao_de_copiar{
+        margin-top: auto;
+    }
+    .resultado_do_container_lateral{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .alura_logo {
+        background-image: url("../files/alura_tablet.png");
+        width: 31.09px;
+        height: 50.58px;
+        margin-top: 73.42px;
+        margin-left: 16px;
+
+    }
+    .interface_do_programa{
+        display: block;
+    }
+    .input_para_texto{
+        margin-left: 16px;
+        margin-top: 240px;
+        width: 343px;
+        height: 624px;
+    }
+    .container_lateral {
+        position: relative;
+        background-color: var(--cor-Aviso);
+        width: 343px;
+        height: 133px;
+        border-radius: 32px;
+        margin-left: 16px;
+        margin-top: 64px;
+    }
+    .botoes_da_interface {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        gap: 12px;
+        width: 343px;
+    }
+    .botao_criptografar{
+        background-color: var(--cor-Aviso);
+        width: 300px;
+        padding: 24px;
+        border-radius: 24px;
+
+        /* FONT */
+    
+        color: var(--cor-Azul);
+        text-decoration: none;
+        font-family: 'Inter', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .botao_descriptografar{
+        background-color: var(--cor-Aviso);
+        width: 300px;
+        height: 19px;
+        padding: 24px;
+        border-radius: 24px;
+        margin-left: 0px;
+    
+        /* FONT */
+    
+        color: var(--cor-Azul);
+        text-decoration: none;
+        font-family: 'Inter', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .avisoParaInput {
+        margin-left: 16px;
+        margin-top: 64px;
+        width: 252px;
+        height: 18px;
+    }
+    .imagem_do_container_lateral{
+        display: none;
+    }
+    .titulo_do_container_lateral{
+        height: 29px;
+        font-family: 'Inter', monospace;
+        width: 70%;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-left: 15%;
+    }
+    .subtitulo_do_container_lateral{
+        width: auto;
+        font-size: 16px;
+        width: 263px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center; 
+        margin-top: 30px;
+        margin-left: 32px;       
+    }
+    .resultado_do_container_lateral{
+        background-color: white;
+        border-radius: 24px;
+        margin-top: -1px;
+        width: 101%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        
+    }
+    .botao_de_copiar {
+        margin-top: auto;
+        margin-left: 16px;
+    }
+    .resultado_do_container_lateral{
+        text-align: left;
+    }
 }
