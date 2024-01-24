@@ -1,9 +1,9 @@
 ﻿# Decodificador e codificador de texto do I Challenge da Oracle Next Education
  
-A codificação acontece substituindo as letras a, e, i, o, u pelas respectivas:
-    A por ai
-    E por enter
-    I por imes
-    O por ober
-    U por ufat
+<h1>A codificação acontece substituindo as vogais A,E,I,O,U pelas respectivas:</h1>
+    <h2>A POR "AI"<br>
+    E POR "ENTER"<br>
+    I POR "IMES"<br>
+    O POR "OBER"<br>
+    U POR "UFAT"</h2>
 analogamente, para a decodificação acontece o oposto.
