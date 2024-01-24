@@ -16,6 +16,9 @@ body {
     width: 100%;
     padding: 0;
     height: 100%;
+    box-sizing: content-box;
+    overflow-y:hidden;
+    overflow-x:hidden;
 }
 
 .alura_logo {
@@ -64,8 +67,8 @@ body {
     align-items: center;
     width: 245px;
     gap: 1px;
-    margin-left: 160px;
-    margin-top: 395px;
+    margin-left: 150px;
+    margin-top: 360px;
 }
 
 .imagem_de_aviso_para_input{
@@ -90,7 +93,7 @@ body {
     align-items: center;
     flex-direction: row;
     margin-top: 16px;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-right: 80px;
     margin-bottom: 72px;
 }
@@ -142,7 +145,7 @@ body {
     height: 944px;
     margin-right: 40px;
     margin-left: 1000px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 32px;
 }
 
