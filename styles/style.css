@@ -177,7 +177,7 @@ body {
 }
 
 .resultado_do_container_lateral{
-    height: 781px;
+    height: auto;
     margin-top: 32px;
     margin-right: 32px;
     margin-left: 32px;
